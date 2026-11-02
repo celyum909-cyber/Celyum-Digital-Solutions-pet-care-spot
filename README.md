@@ -73,8 +73,16 @@ Give each store its own copy of this folder (or its own hosting address) and cha
 The in-app **Branding** section changes the colors, name and logo inside the app. The home-screen
 name and icon come from the manifest and icon files above.
 
+## Photos and gallery
+
+The owner signs in (lock button at the top, demo login `owner@petcarespot.demo` / `demo123`) and uses
+**Photos** in the Owner Dashboard to upload a store logo, a photo for each service, and up to 24
+gallery photos with captions. Customers see them on the **Gallery** tab and can tap any photo to view
+it full screen. Until the owner adds photos, the Gallery shows drawn sample photos marked "SAMPLE".
+Photos are shrunk before saving so many fit on a phone.
+
 ## Still a demo
 
-Prices, bookings, branding and owner changes are saved only on each phone. The owner login and
+Prices, bookings, branding, photos and owner changes are saved only on each phone. The owner login and
 payments are fake. A real backend (e.g. Firebase or Supabase, plus Stripe for payments) is needed
 before real customers use it.

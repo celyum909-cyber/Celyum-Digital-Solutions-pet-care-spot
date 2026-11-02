@@ -2,7 +2,7 @@
 // Network-first: when the phone is online it ALWAYS loads the latest version
 // (prices, branding, deals). The saved copy is only used when there is no signal.
 // To force every phone to drop the old saved copy, bump CACHE (pcs-v2, pcs-v3...).
-const CACHE = 'pcs-v1';
+const CACHE = 'pcs-v2';
 const SHELL = [
   './',
   'index.html',
